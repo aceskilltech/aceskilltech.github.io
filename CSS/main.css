@@ -1,0 +1,54 @@
+body {
+    background-color: #fff;
+    margin: auto;
+    font-family: system-ui;
+    color: #212121;
+}
+
+a {
+    color: rgb(67, 67, 67);
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.pad10 {
+    padding: 1.25rem;
+}
+
+.banner img {
+    height: auto;
+    width: 100%; 
+    position: relative;
+    vertical-align: middle;
+}
+
+.bodyItem {
+    margin-inline: auto;
+    background-color: rgb(250, 250, 253);
+    width: 90%;
+}
+
+.textCenter {
+    text-align: center;
+    padding-inline: 10%;
+}
+
+.posa {
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+.ease {
+    transition: all 0.5s ease;
+}
+
+.linkTajaan:hover{
+    color: rgb(255, 136, 0);
+}

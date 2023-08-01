@@ -1,0 +1,29 @@
+
+
+.navbar {
+    height: 6rem;
+    background-color: rgb(236, 236, 236);
+}
+
+.navbar img {
+    height: 5rem;
+    padding: .5rem;
+    padding-left: 2rem;
+}
+
+.navbar .links {
+    position: absolute;
+    right: 5rem;
+    top: 2.5rem;
+}
+
+.links a {
+    color: #252525;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 2vw;
+}
+
+.links a:hover{
+    color: rgb(255, 136, 0);
+}
+
