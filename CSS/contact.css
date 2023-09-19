@@ -70,5 +70,5 @@
 
 .contactUs {
     grid-template-areas:"callNum companyEmail companyAddress";
-    padding-inline: 1rem;
+    padding-inline: 1rem;
 }
