@@ -75,3 +75,8 @@ function closeOverlay6() {
     document.getElementById("cardText6").style.display ="none";
     document.getElementById("dCard6").style.transform ="scale(1)";
 } 
+
+function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+  }
