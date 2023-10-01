@@ -93,8 +93,10 @@
     align-items: center;
 }
 
+
 .skm {
     background-color: rgb(240, 242, 241);
+    padding-bottom: 4rem;
 }
 
 .skm h2 {
@@ -117,7 +119,12 @@
     width: 15rem;
     height: 7.5rem;
     background-color: rgb(26, 26, 26);
-    
+    transition: transform 0.3s; /* Add transition for smooth hover effect */
+}
+
+/* Add hover effect */
+.skmCard div:hover {
+    transform: scale(1.1); /* Scale the size of the card up to create a zoom effect */
 }
 
 .moreButton {
@@ -147,7 +154,7 @@
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-  }
+  } 
   
   .buttonLanjut span {
     cursor: pointer;
