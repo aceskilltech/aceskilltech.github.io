@@ -58,6 +58,7 @@
   }
 }
 
+
 .abouttUs {
   grid-template-areas:"misiText visiText objektifText";
   padding-inline: 1rem;
