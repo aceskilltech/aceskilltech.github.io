@@ -80,3 +80,22 @@ function onClick(element) {
     document.getElementById("img01").src = element.src;
     document.getElementById("modal01").style.display = "block";
   }
+
+
+
+/*navbar editor
+*/
+
+$(document).ready(function() {
+    $("#search-icon").click(function() {
+      $(".nav").toggleClass("search");
+      $(".nav").toggleClass("no-search");
+      $(".search-input").toggleClass("search-active");
+    });
+  
+    $('.menu-toggle').click(function() {
+      $(".nav").toggleClass("mobile-nav");
+      $(this).toggleClass("is-active");
+    });
+  });
+  
