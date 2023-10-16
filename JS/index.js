@@ -81,7 +81,6 @@ function onClick(element) {
     document.getElementById("modal01").style.display = "block";
   }
 
-<<<<<<< HEAD
 
 
 /*navbar editor
@@ -100,5 +99,3 @@ $(document).ready(function() {
     });
   });
   
-=======
->>>>>>> 73e856a7605e6d6615eb812597b3dbf6bff9b583
