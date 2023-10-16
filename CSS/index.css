@@ -660,6 +660,9 @@
           padding: 50px;
         }
         
+        .slideshow-container {
+          z-index: -1; /* Ensure the slider is behind the navbar */
+        }
         /* MOBILE HEADINGS */
         
         h1 {
