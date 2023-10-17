@@ -466,8 +466,9 @@
     .navbar ul {
       list-style: none;
       display: grid;
-      grid-template-columns: 3fr 3fr 3fr 3fr 2fr 1fr;
-      justify-self: end;
+      grid-template-columns: 2fr 2fr 2fr 2.8fr 2fr 1fr;
+      justify-content: center;
+      align-items: center;
     }
     
     .nav-item a {
