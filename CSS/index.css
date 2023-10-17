@@ -467,7 +467,7 @@
       list-style: none;
       display: grid;
       grid-template-columns: 2fr 2fr 2fr 2.8fr 2fr 1fr;
-      justify-content: center;
+      justify-content: end;
       align-items: center;
     }
     
