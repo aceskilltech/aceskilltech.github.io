@@ -448,20 +448,7 @@
     
     /* NAVIGATION */
     
-    .navbar {
-      display: grid;
-      grid-template-columns: 1fr 1.8fr;
-      align-items: center;
-      height: 60px;
-      overflow: hidden;
-    }
     
-    .navbar img {
-      height: 56px;
-      width: auto;
-      justify-self: start;
-      margin-left: 20px;
-    }
     
     .navbar ul {
       list-style: none;
