@@ -68,11 +68,11 @@
     height: 50px;
 }
 
-.contactUs {
+/*.contactUs {
     grid-template-areas:"callNum companyEmail companyAddress";
     padding-inline: 1rem;
 }
-
+*/
 .flip-card {
     background-color: transparent;
     width: 300px;
