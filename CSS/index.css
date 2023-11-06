@@ -57,6 +57,65 @@
     color: #212121;
 }
 
+/* Tablet and Mobile styles */
+@media (max-width: 960px) {
+  .MVO {
+    display: grid;
+    grid-template-areas:
+      "misi visi"
+      "objektif objektif";
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .misi,
+  .visi,
+  .objektif {
+      width: 100%;
+      height: 195px;
+      border: 3px solid rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
+  .objektif{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .misi,
+  .visi {
+      margin-bottom: 1rem;
+  }
+  
+  .MVOtitle {
+      padding: 1rem;
+  }
+
+  .tentangImg {
+    width: 100%; /* Take up the full width of the screen */
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem; /* Adjust margin as needed */
+    overflow: hidden;
+  }
+
+  .tentangImg img {
+      width: 100%; /* Make the image fill its container */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  .tentangText {
+      width: 100%; /* Take up the full width of the screen */
+      height: auto; /* Adjust height as needed */
+      margin-inline: 0; /* Remove margin */
+      margin-top: 1rem; /* Adjust margin as needed */
+      padding: 1rem; /* Adjust padding as needed */
+  }
+}
+
+/*           --------------------          */
+
 .tentangImg{
     width: 850px;
     height: 380px;
@@ -67,11 +126,11 @@
 }
 
 .tentangImg img {
-    width: 80%;
+    width: 100%;
 }
 
 .tentangText{
-    position: absolute;
+    position: relative;
     background-color: #2947A9;
     color: aliceblue;
     width: 350px;
@@ -79,6 +138,7 @@
     margin-inline: 45rem;
     margin-top: -38rem;
     padding: 2rem;
+    z-index: 1;
 }
 
 .tentangText h3{
@@ -93,6 +153,7 @@
     border-radius: 3px;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 
@@ -448,7 +509,9 @@
     
     /* NAVIGATION */
     
-    
+    .navbar{
+      z-index: 100;
+    }
     
     .navbar ul {
       list-style: none;
@@ -654,3 +717,9 @@
       color: white;
       cursor: pointer;
   }
+
+  /*-------------------------------------------------------------------------------------------
+                                                Section
+    ---------------------------------------------------------------------------------------------*/
+
+  
