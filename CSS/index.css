@@ -655,3 +655,51 @@
       color: white;
       cursor: pointer;
   }
+
+
+  /*FOOTER CONTACT US*/
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+  .footer {
+    display: flex;
+  }
+  .footer-column {
+    width: 33.3%;
+    float: left;
+  }
+  .map-image {
+    width: 100%;
+  }
+  .contact-form-container {
+    background-color: #eaeaea;
+  }
+  img {
+    vertical-align: middle;
+  }
+  .tile-content {
+    padding: 20px 40px;
+  }
+  .tile-content .contact-row {
+    margin-bottom: 20px;
+  }
+  .tile-field {
+    width: 100%;
+    padding: 10px 8px;
+    border-radius:  4px;
+    border: #d9d8d8 1px solid;
+  }
+  .button {
+    color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #08a9df, #12054a);
+    border: 0px;
+  }
+  #menu-icon {
+    display: none;
+    float: right;
+  }
+}
