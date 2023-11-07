@@ -50,7 +50,7 @@
     }
     .navbar {
         display: grid;
-        grid-template-columns: 1fr 1.8fr 1fr 1fr 1fr; /* 5 columns */
+        grid-template-columns: 1fr 1.8fr; /* 5 columns */
         align-items: center;
         height: 60px;
         overflow: hidden;
