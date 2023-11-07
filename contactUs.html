@@ -11,29 +11,34 @@
     <link rel="stylesheet" href="CSS/about.css" />
     <link rel="stylesheet" href="CSS/contact.css" />
     <link rel="stylesheet" href="CSS/sliderImage.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS/contactUs.js"></script>
     <script src="JS/imageSlider.js"></script>
 
 <style>
-  body {
-      background-image: url(Asset/Bg1.jpg);
-    }
 </style>
     <title>ACE SKILL TECH</title>
     <link rel="icon" type="image/x-icon" href="Asset/Icon/logo.png">
   </head>
   <body>
-    <div class="navbar">
-      <a href="index.html"><img src="Asset/skimLogoPNG.png" alt="Logo Perantisan" /></a>
-
-      <span class="links">
-        <a href="index.html" class="nav">LAMAN UTAMA</a>
-        <a href="career.html" class="nav">KERJAYA</a>
-        <a href="programme.html" class="nav">GALERI</a>
-        <a href="about.html" class="nav">TENTANG KAMI</a>
-        <a href="contactUs.html" class="nav">HUBUNGI KAMI</a>
-      
-      </span>
-    </div>
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <img src="Asset/skimLogoPNG.png" alt="Logo Perantisan">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li><a href="index.html" class="nav-links">UTAMA</a></li>
+            <li><a href="career.html" class="nav-links">KERJAYA</a></li>
+            <li><a href="programme.html" class="nav-links">GALERI</a></li>
+            <li><a href="about.html" class="nav-links">TENTANG KAMI</a></li>
+            <li><a href="contactUs.html" class="nav-links">HUBUNGI KAMI</a></li>
+        </ul>
+      </nav>
+      </div>
 
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -59,6 +64,7 @@
         <span class="dot" onclick="currentSlide(3)"></span> 
       </div>
 
+      <div class="BodyItm">
       <div class="bodyItem">
         <br>
   
@@ -98,6 +104,7 @@
         </div>
         <br>
         <br>
+      </div>
       </div>
     
 

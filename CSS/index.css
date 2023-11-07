@@ -64,7 +64,7 @@
     .navbar ul {
       list-style: none;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1.3fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1.3fr 1fr ;
       justify-content: end;
       align-items: center;
     }
@@ -96,7 +96,7 @@
     }
     
     .menu-toggle {
-      justify-self: end;
+      justify-self: flex-end;
       margin-right: 25px;
       display: none;
     }
@@ -265,6 +265,8 @@
       color: white;
       cursor: pointer;
   }
+
+  /*--------------------------------------*/
 
 .MVO {
     grid-template-areas:"misi visi objektif";
