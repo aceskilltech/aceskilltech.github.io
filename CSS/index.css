@@ -1,8 +1,4 @@
 
-<<<<<<< HEAD
- /*-------------------------------------------------------------------------------------------
-                                                navbar
-=======
 
 .MVO {
     grid-template-areas:"misi visi objektif";
@@ -669,11 +665,6 @@
     .navbar ul {
       list-style: none;
       display: grid;
-<<<<<<< HEAD
-      grid-template-columns: 1fr 1fr 1fr 1.3fr 1fr ;
-=======
-      grid-template-columns: 2fr 2fr 2fr 2.8fr 2fr 1fr;
->>>>>>> 1b7058f1b188f49b399c63d0bc19eb03c2622d5d
       justify-content: end;
       align-items: center;
     }
