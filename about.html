@@ -2,9 +2,6 @@
 <html lang="en">
   <head>
     <style>
-      body {
-      background-image: url(Asset/Bg1.jpg);
-    }
       h1{
         font-family: Gothic Medium;
       }
@@ -25,25 +22,33 @@
     <link rel="stylesheet" href="CSS/about.css" />
     <link rel="stylesheet" href="CSS/index.css" />
     <link rel="stylesheet" href="CSS/sliderImage.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="JS/imageSlider.js"></script>
+    <script src="JS/about.js"></script>
 
     <title>ACE SKILL TECH</title>
     <link rel="icon" type="image/x-icon" href="Asset/Icon/logo.png">
   </head>
 
   <body>
-    <div class="navbar">
-      <a href="index.html"><img src="Asset/skimLogoPNG.png" alt="Logo Perantisan" /></a>
-
-      <span class="links">
-        <a href="index.html" class="nav">LAMAN UTAMA</a>
-        <a href="career.html" class="nav">KERJAYA</a>
-        <a href="programme.html" class="nav">GALERI</a>
-        <a href="about.html" class="nav">TENTANG KAMI</a>
-        <a href="contactUs.html" class="nav">HUBUNGI KAMI</a>
-      
-      </span>
-    </div>
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <img src="Asset/skimLogoPNG.png" alt="Logo Perantisan">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li><a href="index.html" class="nav-links">UTAMA</a></li>
+            <li><a href="career.html" class="nav-links">KERJAYA</a></li>
+            <li><a href="programme.html" class="nav-links">GALERI</a></li>
+            <li><a href="about.html" class="nav-links">TENTANG KAMI</a></li>
+            <li><a href="contactUs.html" class="nav-links">HUBUNGI KAMI</a></li>
+        </ul>
+      </nav>
+      </div>
 
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -71,7 +76,7 @@
 
     <br>
     <br>
-
+    <div class="BodyItm">
     <div class="bodyItem">
 
       <div class="MVOtitle">
@@ -82,52 +87,54 @@
    
 
 
-    <div class="grid-container">
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="Asset/misi blue.png" alt="Avatar" style="width:450px;height:400px;">
-          </div>
-          <div class="flip-card-back">
-            <h1>MISI KAMI</h1>
-            <p>Menyediakan platform kemahiran dan akademik sejajar dengan kehendak industri pada masa kini.</p>
-          </div>
-        </div>
-      </div>
-  
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="Asset/visi green.png" alt="Avatar" style="width:450px;height:400px;">
-          </div>
-          <div class="flip-card-back">
-            <h1>VISI KAMI</h1>
-            <p>Untuk menjadi pendidikan yang unggul, tenaga profesional yang berwibawa untuk merealisasikan wawasan negara.</p>
+      <div class="grid-container">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Asset/misi blue.png" alt="Avatar" style="width:450px;height:400px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>MISI KAMI</h1>
+              <p>Menyediakan platform kemahiran dan akademik sejajar dengan kehendak industri pada masa kini.</p>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="Asset/objective orange.png" alt="Avatar" style="width:450px;height:400px;">
-          </div>
-  
-          
-          <div class="flip-card-back">
-            <h1>OBJEKTIF KAMI</h1>
-            <P>
-              <ol type="i">
-                <li>Memberi pendedahan kepada program akademik dan kemahiran peringkat sijil, diploma dan ijazah untuk melahirkan graduan yang berkelayakan untuk mencapai misi negara.</li>
-                <li>Menampung kekurangan ruang pengajian di institut pengajian tinggi awam (IPTA) bagi memperoleh sijil, diploma dan ijazah yang sama.</li>
-                <li>Melahirkan tenaga kerja yang berorientasikan industri pada tahap kemahiran yang tinggi.</li>
-                <li>Menyediakan pengetahuan dan latihan terkini tentang akademik, teknologi maklumat dan kemahiran.</li>
-              </ol>
-            </P>
+    
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Asset/visi green.png" alt="Avatar" style="width:450px;height:400px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>VISI KAMI</h1>
+              <p>Untuk menjadi pendidikan yang unggul, tenaga profesional yang berwibawa untuk merealisasikan wawasan negara.</p>
+            </div>
           </div>
         </div>
-      </div>
+    
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Asset/objective orange.png" alt="Avatar" style="width:450px;height:400px;">
+            </div>
+    
+            
+            <div class="flip-card-back">
+              <h1>OBJEKTIF KAMI</h1>
+              <P>
+                <ol type="i">
+                  <li>Memberi pendedahan kepada program akademik dan kemahiran peringkat sijil, diploma dan ijazah untuk melahirkan graduan yang berkelayakan untuk mencapai misi negara.</li>
+                  <li>Menampung kekurangan ruang pengajian di institut pengajian tinggi awam (IPTA) bagi memperoleh sijil, diploma dan ijazah yang sama.</li>
+                  <li>Melahirkan tenaga kerja yang berorientasikan industri pada tahap kemahiran yang tinggi.</li>
+                  <li>Menyediakan pengetahuan dan latihan terkini tentang akademik, teknologi maklumat dan kemahiran.</li>
+                </ol>
+              </P>
+            </div>
+          </div>
+       </div>
     </div>
+  </div>
+  </div>
 
 
     

@@ -11,29 +11,34 @@
     <link rel="stylesheet" href="CSS/about.css" />
     <link rel="stylesheet" href="CSS/contact.css" />
     <link rel="stylesheet" href="CSS/sliderImage.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS/contactUs.js"></script>
     <script src="JS/imageSlider.js"></script>
 
 <style>
-  body {
-      background-image: url(Asset/Bg1.jpg);
-    }
 </style>
     <title>ACE SKILL TECH</title>
     <link rel="icon" type="image/x-icon" href="Asset/Icon/logo.png">
   </head>
   <body>
-    <div class="navbar">
-      <a href="index.html"><img src="Asset/skimLogoPNG.png" alt="Logo Perantisan" /></a>
-
-      <span class="links">
-        <a href="index.html" class="nav">LAMAN UTAMA</a>
-        <a href="career.html" class="nav">KERJAYA</a>
-        <a href="programme.html" class="nav">GALERI</a>
-        <a href="about.html" class="nav">TENTANG KAMI</a>
-        <a href="contactUs.html" class="nav">HUBUNGI KAMI</a>
-      
-      </span>
-    </div>
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <img src="Asset/skimLogoPNG.png" alt="Logo Perantisan">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li><a href="index.html" class="nav-links">UTAMA</a></li>
+            <li><a href="career.html" class="nav-links">KERJAYA</a></li>
+            <li><a href="programme.html" class="nav-links">GALERI</a></li>
+            <li><a href="about.html" class="nav-links">TENTANG KAMI</a></li>
+            <li><a href="contactUs.html" class="nav-links">HUBUNGI KAMI</a></li>
+        </ul>
+      </nav>
+      </div>
 
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -59,6 +64,7 @@
         <span class="dot" onclick="currentSlide(3)"></span> 
       </div>
 
+      <div class="BodyItm">
       <div class="bodyItem">
         <br>
   
@@ -68,12 +74,57 @@
           <br>
           <br>
         </div>
-        <div class="contactUs grid">
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Asset/Icon/telephoneIcon-01.png" class="phoneIcon"/>
+            </div>
+            <div class="flip-card-back">
+              <h2>HUBUNGI KAMI DI TALIAN</h2>
+              <p>CIK AZRA - <b>014-8431401</b></p>
+                <p>ENCIK NAZMI MOHD NOR - <b>017-9955713</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Asset/Icon/emailIcon-01.png" class="emailIcon"/>
+            </div>
+            <div class="flip-card-back">
+              <h2>EMEL KAMI</h2>
+              <p>
+                <address>
+                  <a href="mailto: paradigmaeducationresources01@gmail.com">paradigmaeducationresources01@gmail.com</a>
+                </address>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Asset/Icon/locationIcon-01.png" class="locationIcon"/>
+            </div>
+            <div class="flip-card-back">
+              <h2>ALAMAT KAMI</h2>
+              <p>UNIT PENTADBIRAN,
+                1-1 JALAN MH 3, TAMAN MUZAFFAR HEIGHTS,
+                75450, AYER KEROH, MELAKA
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="contactUs grid">
           <div class="callNum">
             <img src="Asset/Icon/telephoneIcon-01.png" class="phoneIcon"/>
             <h2>HUBUNGI KAMI DI TALIAN</h2>
             <P>CIK AZRA - <b>014-8431401</b></P>
-            <P>ENCIK FAEZ - <b>01</b></P>
+            <P>ENCIK NAZMI MOHD NOR - <b>017-9955713</b></P>
           </div>
 
           <div class="companyEmail">
@@ -95,9 +146,10 @@
               75450, AYER KEROH, MELAKA
             </P>
           </div>
-        </div>
+        </div>-->
         <br>
         <br>
+      </div>
       </div>
     
 
