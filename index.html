@@ -4,6 +4,10 @@
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
+    body {
+      background-image: url(Asset/OrangeBg.jpeg);
+    }
+
     h1 {
       font-family: Gothic Medium;
     }
@@ -51,6 +55,11 @@
     <div class="grad-bar"></div>
     <nav class="navbar">
       <img src="Asset/skimLogoPNG.png" alt="Logo Perantisan">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
       <ul class="nav no-search">
         <li><a href="index.html" class="nav-links">UTAMA</a></li>
           <li><a href="career.html" class="nav-links">KERJAYA</a></li>
@@ -58,11 +67,6 @@
           <li><a href="about.html" class="nav-links">TENTANG KAMI</a></li>
           <li><a href="contactUs.html" class="nav-links">HUBUNGI KAMI</a></li>
       </ul>
-      <div class="menu-toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
     </nav>
     </div>
 
@@ -92,17 +96,46 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-<div class="BodyItm">
+
   <div class="bodyItem">
     <div class="MVOtitle">
-      <center>
-        <h1>MISI, VISI DAN OBJEKTIF</h1>
-      </center>
     </div>
+  
     <div class="MVO grid">
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>Misi</h3>
+          <p>Menyediakan platform kemahiran dan akademik sejajar...</p>
+          <br>
+          <a href="about.html">Baca lagi</a>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h3>Visi</h3>
+          <p>Untuk menjadi pendidikan yang unggul, tenaga profesional...</p>
+          <br>
+          <a href="about.html">Baca lagi</a>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h3>Objektif</h3>
+          <p>Memberi pendedahan kepada program akademik dan...</p>
+          <br>
+          <a href="about.html">Baca lagi</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--<div class="MVO grid">
       <div class="misi">
         <img src="Asset/missionIcon.png" alt="Icon Misi" class="mvoIcon" />
-        <div class="mvopad">MISI AND VISI</div>
+        <div class="mvopad">MISI</div>
         Menyediakan platform kemahiran dan akademik sejajar....
         <br />
         <a href="about.html"> Baca lagi </a>
@@ -122,7 +155,7 @@
         <br />
         <a href="about.html"> Baca lagi </a>
       </div>
-    </div>
+    </div>-->
 
     <div class="tentangKami">
       <div class="tentangImg"><img src="Asset/talkPic.jpg" alt=""></div>
@@ -606,49 +639,42 @@
         </div>
       </div> -->
 
-      <div class="footer">
-        <div class="footer-grid">
-          <span class="grid1 pad10">
-            <h4>PAUTAN LAIN TAJAAN PENDIDIKAN</h4>
-            <ul>
-              <a href="https://myperkasatvet.ptpk.gov.my/portal/" target="_blank" class="linkTajaan">
-                <li>Perbadanan Tabung Pembangunan Kemahiran (PTPK)</li>
-              </a>
-              <a href="https://www.dsd.gov.my/" target="_blank" class="linkTajaan">
-                <li>Jabatan Pembangunan Kemahiran (JPK)</li>
-              </a>
-              <a href="https://www.ptptn.gov.my/" target="_blank" class="linkTajaan">
-                <li>Perbadanan Tabung Pendidikan Tinggi Nasional (PTPTN)</li>
-              </a>
-              <a href="https://www.mara.gov.my/en/index/" target="_blank" class="linkTajaan">
-                <li>Majlis Amanah Rakyat (MARA)</li>
-              </a>
-            </ul>
-          </span>
-          <span class="grid2 pad10">
-            <a href="index.html" class="nav">Home</a><br />
-            <a href="about.html" class="nav">About Us</a><br />
-            <a href="contactUs.html" class="nav">Contact Us</a><br />
-            <a href="career.html" class="nav">Career</a><br />
-            <a href="programme.html" class="nav">Programme</a>
-          </span>
-        </div>
-        <br>
-        <div class="footer2">
-          Ace Skill Tech © 2023. All Rights Reserved
-        </div>
+    <div class="footer">
+      <div class="footer1 grid">
+        <span class="grid1 pad10">
+          <h4>PAUTAN LAIN TAJAAN PENDIDIKAN</h4>
+          <ul>
+            <a href="https://myperkasatvet.ptpk.gov.my/portal/" target="_blank" class="linkTajaan">
+              <li>Perbadanan Tabung Pembangunan Kemahiran (PTPK)</li>
+            </a>
+            <a href="https://www.dsd.gov.my/" target="_blank" class="linkTajaan">
+              <li>Jabatan Pembangunan Kemahiran (JPK)</li>
+            </a>
+            <a href="https://www.ptptn.gov.my/" target="_blank" class="linkTajaan">
+              <li>Perbadanan Tabung Pendidikan Tinggi Nasional (PTPTN)</li>
+            </a>
+            <a href="https://www.mara.gov.my/en/index/" target="_blank" class="linkTajaan">
+              <li>Majlis Amanah Rakyat (MARA)</li>
+            </a>
+          </ul>
+        </span>
+        
+
+        <span class="grid2 pad10">
+          <br>
+          <br>
+          <a href="index.html" class="nav">Home</a><br />
+          <a href="about.html" class="nav">About Us</a><br />
+          <a href="contactUs.html" class="nav">Contact Us</a><br />
+          <a href="career.html" class="nav">Career</a><br />
+          <a href="programme.html" class="nav">Programme</a>
+        </span>
       </div>
-<<<<<<< HEAD
-      
-=======
       <br>
       <div class="footer2">
         Ace Skill Tech © 2023. All Rights Reserved
       </div>
     </div>
->>>>>>> fc3f34bc7f67af4825c6f037ab8bd81283e36276
-  </div>
-</div>
 
     <script>
       var slideIndex = 0;

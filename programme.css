@@ -1,0 +1,13 @@
+.programmeTitle {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+}
+
+table,th,td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}

@@ -1,0 +1,36 @@
+.footer{
+    position: sticky;
+    top: calc(100% + 13vh);
+
+}
+
+.footer1 {
+    height: 25vh;
+    background-color: #F6F8F7;
+    color: #151515;
+    grid-template-areas: "foot1 foot2";
+}
+
+.footer2 {
+    background-color:#2947A9;
+    color: rgb(255, 255, 255);
+    padding-inline: 5rem;
+    padding-block: .25rem;
+    font-weight: 100;
+}
+
+.body {
+    min-height: calc(80vh - 5rem);
+}
+
+.footerlinks {
+    margin-left: 50vw;
+}
+.footer1 span {
+    min-height: 100%;
+}
+
+.footer a {
+    color: #2947A9;
+    font-weight: bold;
+}
