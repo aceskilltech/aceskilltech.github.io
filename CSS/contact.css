@@ -104,11 +104,11 @@
 
 .flip-card-front {
     background-color: #bbb;
-    color: bklack;
+    color: black;
 }
 
 .flip-card-back {
-    background-color: #2980b9;
+    background-color: #ffffff;
     color: white;
     transform: rotateY(180deg);
 }

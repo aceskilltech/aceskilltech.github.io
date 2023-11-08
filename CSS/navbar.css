@@ -14,12 +14,12 @@
     display: grid;
     grid-template-columns: 1fr 1.8fr;
     align-items: center;
-    height: 60px;
+    height: 80px;
     overflow: hidden;
   }
   
   .navbar img {
-    height: 56px;
+    height: 70px;
     width: auto;
     justify-self: start;
     margin-left: 20px;
