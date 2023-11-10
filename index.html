@@ -552,8 +552,7 @@
 
 
 <div class="container">-->
-    <form class="form">
-    
+  <form class="form" action="process-form.php" method="post"> 
       <div class="flex">
           <label>
               <input required="" placeholder="" type="text" class="input">
@@ -589,6 +588,30 @@
   </form>
 </div>
 </div>
+
+<script>
+  function validateForm() {
+    // Perform your form validation here using JavaScript
+    // Return true if the form is valid and should be submitted, or false otherwise
+    var firstName = document.getElementById('firstName').value;
+    var lastName = document.getElementById('lastName').value;
+    var email = document.getElementById('email').value;
+    var contactNumber = document.getElementById('contactNumber').value;
+    var message = document.getElementById('message').value;
+
+    // Add your validation logic here
+
+    // Example: Check if email is not empty
+    if (email.trim() === '') {
+      alert('Email cannot be empty');
+      return false;
+    }
+
+    // You can add more validation checks based on your requirements
+
+    return true; // Form is valid and will be submitted
+  }
+</script>
 
 
     <!----
