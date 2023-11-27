@@ -539,15 +539,79 @@
         <h1>PROGRAM PERANTISAN BELIA KEMAHIRAN</h1>
         <p>CIK AZRA - <b>014-8431401</b></p>
         <p>ENCIK NAZMI MOHD NOR - <b>017-9955713</b></p>
+        <br>
       </div>
-      <div class="buttonOfficeBanner">
-        <a href="contactUs.html">
+     <div class="buttonOfficeBanner">
+       <!--<a href="contactUs.html">
           <div class="buttonOnBanner">
             <h3>HUBUNGI KAMI</h3>
           </div>
         </a>
       </div>
     </div>
+
+
+<div class="container">-->
+  <form class="form" action="process-form.php" method="post"> 
+      <div class="flex">
+          <label>
+              <input required="" placeholder="" type="text" class="input">
+              <span>first name</span>
+          </label>
+  
+          <label>
+              <input required="" placeholder="" type="text" class="input">
+              <span>last name</span>
+          </label>
+      </div>  
+              
+      <label>
+          <input required="" placeholder="" type="email" class="input">
+          <span>email</span>
+      </label> 
+          
+      <label>
+          <input required="" type="tel" placeholder="" class="input">
+          <span>contact number</span>
+      </label>
+      <label>
+          <textarea required="" rows="3" placeholder="" class="input01"></textarea>
+          <span>message</span>
+      </label>
+      
+      <button class="fancy" href="#">
+        <span class="top-key"></span>
+        <span class="text" a href="mailto: paradigmaeducationresources01@gmail.com">submit</span>
+        <span class="bottom-key-1"></span>
+        <span class="bottom-key-2"></span>
+      </button>
+  </form>
+</div>
+</div>
+
+<script>
+  function validateForm() {
+    // Perform your form validation here using JavaScript
+    // Return true if the form is valid and should be submitted, or false otherwise
+    var firstName = document.getElementById('firstName').value;
+    var lastName = document.getElementById('lastName').value;
+    var email = document.getElementById('email').value;
+    var contactNumber = document.getElementById('contactNumber').value;
+    var message = document.getElementById('message').value;
+
+    // Add your validation logic here
+
+    // Example: Check if email is not empty
+    if (email.trim() === '') {
+      alert('Email cannot be empty');
+      return false;
+    }
+
+    // You can add more validation checks based on your requirements
+
+    return true; // Form is valid and will be submitted
+  }
+</script>
 
 
     <!----
