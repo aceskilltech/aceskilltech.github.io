@@ -282,19 +282,127 @@ table,th,td {
 }
 
 
-.image-container{ 
-  text-align: center; 
-} 
- 
-.linkTajaan { 
-  display: inline-block; 
-} 
- 
-.linkTajaan img { 
-  max-width: 100%; 
-  height: auto; 
-} 
- 
-.pautan { 
-  text-align: center; 
+/*Footer picture*/
+.image-container{
+  text-align: center;
 }
+
+.linkTajaan {
+  display: inline-block;
+}
+
+.linkTajaan img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pautan {
+  text-align: center;
+}
+
+
+
+/*tahap 2*/
+#myImage {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+#myImage img {
+  margin: auto;
+  display: inline-block;
+  width: 30%; 
+  padding: 20px;
+  box-sizing: border-box;
+  position: center;
+}
+
+
+#closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.past, .present {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.past { left: 10px; }
+.present { right: 10px; }
+
+
+
+/*Tahap 3*/
+#myImages {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+#myImages img {
+  margin: auto;
+  display: inline-block;
+  width: 30%; 
+  padding: 20px;
+  box-sizing: border-box;
+  position: center;
+}
+
+
+#closeBtns {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pasts, .presents {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 30px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pasts { left: 10px; }
+.presents { right: 10px; }
+
