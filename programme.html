@@ -109,11 +109,31 @@
             <th>TAHAP</th>
             <th>LIHAT TERPERINCI</th>
           </tr>
-          <tr>
-            <td style="text-align: center;">Elektrikal</td>
-            <td>Pemasangan dan Penyelenggaraan Elektrik Satu Fasa</td>
-            <td>Tahap 2</td>
-            <td>Lihat</td>
+          <tr> 
+            <td style="text-align: center;">Elektrikal</td> 
+            <td>Pemasangan dan Penyelenggaraan Elektrik Satu Fasa</td> 
+            <td>Tahap 2</td> 
+            <td rowspan="2"> 
+               
+              <center> 
+                <a href="#" onclick="openImage(); return false;" >Lihat</a> 
+              </center> 
+ 
+              <div id="myImage"> 
+                <span id="closeBtn" onclick="closeImage()">&times;</span> 
+                <span class="past" onclick="nextSlide(-1)">&#10094;</span> 
+                <span class="present" onclick="nextSlide(1)">&#10095;</span> 
+ 
+                <!--gambar--> 
+                <img class="slaid" src="Asset/Galeri/stud 1.jpg" alt="Image 1"> 
+                <img class="slaid" src="Asset/Galeri/stud 2.jpg" alt="Image 2"> 
+                <img class="slaid" src="Asset/Galeri/stud 3.jpg" alt="Image 3"> 
+                <img class="slaid" src="Asset/Galeri/stud 4.jpg" alt="Image 4"> 
+                <img class="slaid" src="Asset/Galeri/stud 5.jpg" alt="Image 5"> 
+                <img class="slaid" src="Asset/Galeri/stud 6.jpg" alt="Image 6"> 
+ 
+              </div> 
+            </td> 
           </tr>
           <tr>
             <td></td>
@@ -140,21 +160,29 @@
           </tr>
           <tr>
             <td></td>
-            <td>
-              <ul>
-                <br />
-                <h3>Tahap 3</h3>
-
-                <li>THREE PHASE DRAWING</li>
-                <li>THREE PHASE WIRING</li>
-                <li>THREE PHASE SYSTEM MAINTENANCE</li>
-                <li>THREE PHASE MOTOR SYSTEM INSTALLATION</li>
-                <li>THREE PHASE WIRING TESTING AND COMMISSIONING</li>
-                <li>ELECTRICAL BUILDING AUTOMATION SYSTEM INSTALLATION</li>
-                <li>ELECTRICAL INSTALLATION & MAINTENANCE SUPERVISORY</li>
-                <br /><br />
-              </ul>
-            </td>
+            <tr> 
+              <td style="text-align: center;">Elektrikal</td> 
+              <td>Pemasangan dan Penyelenggaraan Elektrik Tiga Fasa</td> 
+              <td>Tahap 3</td> 
+              <td rowspan="2"><center> 
+                <a href="#" onclick="openImages(); return false;">Lihat</a> 
+              </center> 
+               
+              <div id="myImages"> 
+                <span id="closeBtns" onclick="closeImages()">&times;</span> 
+                <span class="pasts" onclick="nextSlidess(-1)">&#10094;</span> 
+                <span class="presents" onclick="nextSlidess(1)">&#10095;</span> 
+                 
+                <img class="slaids" src="Asset/Galeri/par 1.jpg" alt="Pic 1"> 
+                <img class="slaids" src="Asset/Galeri/par 2.jpg" alt="Pic 2"> 
+                <img class="slaids" src="Asset/Galeri/par 3.jpg" alt="Pic 3"> 
+                <img class="slaids" src="Asset/Galeri/par 4.jpg" alt="Pic 4"> 
+                <img class="slaids" src="Asset/Galeri/par 5.jpg" alt="Pic 5"> 
+                <img class="slaids" src="Asset/Galeri/par 6.jpg" alt="Pic 6"> 
+                 
+              </div> 
+            </td> 
+            </tr>
             <td></td>
             <td></td>
           </tr>
@@ -166,13 +194,28 @@
     <div class="footer">
       <div class="footer1 grid">
         <span class="gird1 pad10">
-           <h4>PAUTAN LAIN TAJAAN PENDIDIKAN</h4>
-          <ul>
-            <a href="https://myperkasatvet.ptpk.gov.my/portal/" target="_blank" class="linkTajaan"><li>Perbadanan Tabung Pembangunan Kemahiran (PTPK)</li></a>
-            <a href="https://www.dsd.gov.my/" target="_blank" class="linkTajaan"><li>Jabatan Pembangunan Kemahiran (JPK)</li></a>
-            <a href="https://www.ptptn.gov.my/" target="_blank" class="linkTajaan"><li>Perbadanan Tabung Pendidikan Tinggi Nasional (PTPTN)</li></a>
-            <a href="https://www.mara.gov.my/en/index/" target="_blank" class="linkTajaan"><li>Majlis Amanah Rakyat (MARA)</li></a>
-          </ul>
+          <h4 class="pautan">PAUTAN LAIN TAJAAN PENDIDIKAN</h4> 
+          <ul class="image-container"> 
+            <a href="https://myperkasatvet.ptpk.gov.my/portal/" target="_blank" class="linkTajaan"> 
+              <!--<li>Perbadanan Tabung Pembangunan Kemahiran (PTPK)</li>--> 
+              <img src="Asset/LOGO/ptpk.jpg" width="150" height="100"> 
+            </a> 
+            <a href="https://www.dsd.gov.my/" target="_blank" class="linkTajaan"> 
+              <!--<li>Jabatan Pembangunan Kemahiran (JPK)</li>--> 
+              <img src="Asset/LOGO/jpk.jpg" width="140" height="100"> 
+            </a> 
+            <a href="https://www.ptptn.gov.my/" target="_blank" class="linkTajaan"> 
+              <!--<li>Perbadanan Tabung Pendidikan Tinggi Nasional (PTPTN)</li>--> 
+              <img src="Asset/LOGO/ptptn.jpg" width="110" height="100"> 
+            </a> 
+            <a href="https://www.mara.gov.my/en/index/" target="_blank" class="linkTajaan"> 
+              <!--<li>Majlis Amanah Rakyat (MARA)</li>--> 
+              <img src="Asset/LOGO/tvet2.png" width="170" height="100"> 
+            </a> 
+            <a href="https://www.skillsmalaysia.gov.my/index.php/" target="_blank" class="linkTajaan" > 
+              <img src="Asset/LOGO/skills.jpg" width="170" height="100" > 
+            </a> 
+          </ul> 
         </span>
 
         <span class="grid2 pad10">

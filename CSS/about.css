@@ -383,4 +383,21 @@
 }
 
 
+.image-container{ 
+  text-align: center; 
+} 
+ 
+.linkTajaan { 
+  display: inline-block; 
+} 
+ 
+.linkTajaan img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+ 
+.pautan { 
+  text-align: center; 
+}
+
 

@@ -280,3 +280,21 @@ table,th,td {
     border: 1px black solid;
     border-collapse: collapse;
 }
+
+
+.image-container{ 
+  text-align: center; 
+} 
+ 
+.linkTajaan { 
+  display: inline-block; 
+} 
+ 
+.linkTajaan img { 
+  max-width: 100%; 
+  height: auto; 
+} 
+ 
+.pautan { 
+  text-align: center; 
+}
