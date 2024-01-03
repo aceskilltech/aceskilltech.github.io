@@ -325,7 +325,6 @@ table,th,td {
   position: center;
 }
 
-
 #closeBtn {
   position: absolute;
   top: 15px;
@@ -334,26 +333,6 @@ table,th,td {
   color: #fff;
   cursor: pointer;
 }
-
-.past, .present {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 30px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-}
-
-.past { left: 10px; }
-.present { right: 10px; }
-
-
 
 /*Tahap 3*/
 #myImages {
@@ -378,7 +357,6 @@ table,th,td {
   position: center;
 }
 
-
 #closeBtns {
   position: absolute;
   top: 15px;
@@ -387,22 +365,4 @@ table,th,td {
   color: #fff;
   cursor: pointer;
 }
-
-.pasts, .presents {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: 30px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-}
-
-.pasts { left: 10px; }
-.presents { right: 10px; }
 
